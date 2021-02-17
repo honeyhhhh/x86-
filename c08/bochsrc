@@ -1,0 +1,13 @@
+romimage: file=/usr/local/share/bochs/BIOS-bochs-latest
+memory: guest=256,host=128
+vgaromimage: file=/usr/local/share/bochs/VGABIOS-lgpl-latest
+
+#floppya: 1_44=a.img, status=inserted
+#boot: floppy,disk
+
+ata0-master: type=disk, path="./img/c8.img"
+boot: disk
+
+log: ./bochsout.log
+
+mouse: enabled=0
