@@ -6,5 +6,5 @@ Bochs x86 Emulator 2.6.11
 
 
 cd cxx          
-make
+make      
 yes
